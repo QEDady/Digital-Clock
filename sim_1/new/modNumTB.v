@@ -1,8 +1,5 @@
 `timescale 1ns / 1ps
-/*module modNum #(parameter n=10, bits=4)(
-input clk, reset, enable,
-output reg [bits-1:0] count
-    )*/
+
 module modNumTB();
 
 reg clk, reset,enable;

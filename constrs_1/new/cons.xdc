@@ -1,19 +1,11 @@
 #Inputs
-#module digitalClock(
-#input clk, reset,
-#output reg [3:0] digitSelect, 
-#output reg [6:0] out
-#);
-
-
 set_property PACKAGE_PIN R2 [get_ports reset]
 set_property IOSTANDARD LVCMOS33 [get_ports reset]
 set_property PACKAGE_PIN W5 [get_ports clk]
 set_property IOSTANDARD LVCMOS33 [get_ports clk]
 
 
-
-#outputts
+#outputs
 set_property PACKAGE_PIN W7 [get_ports out[6]]
 set_property IOSTANDARD LVCMOS33 [get_ports out[6]]
 set_property PACKAGE_PIN W6 [get_ports out[5]]

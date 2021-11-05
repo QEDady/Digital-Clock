@@ -1,30 +1,4 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 11/04/2021 12:24:10 PM
-// Design Name: 
-// Module Name: secMinsTB
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// module secMinsCounter(
-/*input clk, reset,
-output  [2:0] m1, s1,
-output  [3:0] m2, s2
-    );*/
-    
-//////////////////////////////////////////////////////////////////////////////////
-
-
 module secMinsTB();
 
 reg clk, reset;

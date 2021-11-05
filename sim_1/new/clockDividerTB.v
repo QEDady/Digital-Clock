@@ -1,10 +1,4 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-/*module clockDivider #(parameter n=10)(
-input clk, reset,
-output reg clk_out
-    );
-*/
 
 module clockDividerTB();
 reg clk, reset;

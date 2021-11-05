@@ -3,26 +3,6 @@ input clk, reset,
 output reg [3:0] digitSelect, 
 output reg [6:0] out
 );
-
-/*module clockDivider #(parameter n=50000000)(
-input clk, reset,
-output reg clk_out
-    );
-    module secMinsCounter(
-    input clk, reset,
-    output reg [2:0] m1, s1,
-    output reg [3:0] m2, s2
-        );
-    //nBitCounter #(3) b(
-        module  nBitCounter #(parameter n=3)(
-        input clk, 
-        reset, 
-        UpDown,
-        Inc,
-        output reg [n-1:0] count); 
-        
-    */
-    
     
 wire slowClock;
 wire fastClock;
@@ -43,7 +23,6 @@ sevSeg ins6(1, m1, outM1);
 
 sevSeg ins7(1, m2, outM2);
 
-//module sevSeg(input en, [3:0] in, output reg [6:0] out);
 always@(twoCounter) begin
     case(twoCounter) 
      2'b00: begin 

@@ -1,14 +1,4 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-/*
-/////nBitCounter #(3) b(
-module  nBitCounter #(parameter n=3)(
-input clk, 
-reset, 
-UpDown,
-Inc,
-output reg [n-1:0] count);
-*/
 
 
 module nBitCounterTB();
